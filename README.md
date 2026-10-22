@@ -3,7 +3,7 @@
 A web platform that hosts Florida plant nurseries: each nursery gets a branded storefront and a dashboard for its inventory, and clients use one account to browse and order from all of them.
 
 - Requirements: [docs/requirements.md](docs/requirements.md)
-- Design: the NurseryNest Design Document (Claude Docs)
+- Design: [docs/design.md](docs/design.md)
 
 ## Stack
 
