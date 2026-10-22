@@ -1,0 +1,35 @@
+{
+    "name": "pedrodiaz2316/nurserynest",
+    "description": "Multi-nursery platform for Florida plant nurseries.",
+    "type": "project",
+    "license": "proprietary",
+    "require": {
+        "php": ">=8.3",
+        "ext-pdo": "*",
+        "ext-pdo_mysql": "*",
+        "ext-mbstring": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "NurseryNest\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "NurseryNest\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "serve": "php -S localhost:8000 -t public public/index.php",
+        "test": "phpunit"
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
